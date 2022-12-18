@@ -1,0 +1,19 @@
+This is an input file for project 1 in CSCI 212, Fall 2022 semester.
+The basic idea of this project is to read lines from
+a file, and count the number of vowels that appear on
+all the lines.
+The actual description of the project is:
+
+Write a main application called Project1.java, and a GUI (that extends JFrame) 
+called VowelGUI.java. The main program should open a file called
+“input.txt” which will contain a paragraph.
+
+Read the lines from the file until there are no more.
+For each line, count the number of individual vowels in that line,
+using a counter for the vowels ‘A’ and ‘a’, a counter 
+for the vowels ‘E’ and ‘e’, and so forth.
+
+The GUI should have a grid layout of one row 
+and two columns (column 0 and 1). Column 0 should
+contain the original text from the file. Column 1 should contain
+5 lines displaying the count of each of the vowels.
