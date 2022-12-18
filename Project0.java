@@ -1,9 +1,7 @@
 import javax.swing.JOptionPane;
 
 public class Project0 {
-
   public static void main(String[] args) {
-    
     String inputWord;
     
     while(true) {
@@ -21,10 +19,9 @@ public class Project0 {
       // Output to a JOptionPane window to count how many E's and e's there are
       JOptionPane.showMessageDialog(null, "Number of lower case e's: " + lowerEcount + "\nNumber of upper case E's: " + upperEcount);
     }
-  } //main
+  }
 
   public static int countLowerEs(String theSentence) {
-    
     int count = 0;
     
     // for loop will check the character at every position of the string and see if it matches 'e'
@@ -34,10 +31,9 @@ public class Project0 {
       }
     }
     return count;
-  } // countLowerEs
+  }
   
 public static int countUpperEs(String theSentence) {
-    
     int count = 0;
     
  // for loop will check the character at every position of the string and see if it matches 'E'
@@ -47,5 +43,5 @@ public static int countUpperEs(String theSentence) {
       }
     }
     return count;
-  } // countUpperEs
-} // class Project0
+  }
+}
