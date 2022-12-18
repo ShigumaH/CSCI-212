@@ -1,8 +1,3 @@
-/**Mohammad Bhuiyan
- * Lab Section: 22D
- * This program counts the vowels in a file.
- */
-
 public class Project1 {
     static String inputLines[] = new String[50]; // Create a String array to store the lines from the file
     static int inputSize = 0; // Counter for how many lines the file has
